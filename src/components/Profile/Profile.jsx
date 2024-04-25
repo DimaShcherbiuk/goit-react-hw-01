@@ -3,7 +3,7 @@ import css from "./Profile.module.css";
 
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
-    <div>
+    <div className={css.container}>
       <div className={css.boxinfo}>
         <img className={css.avatar} src={image} alt={name} width={270} />
         <p className={css.title}>{name}</p>
