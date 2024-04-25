@@ -1,0 +1,49 @@
+.boxinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  background-color: rgb(43, 43, 43);
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.tag {
+  color: rgb(127, 127, 127);
+  font-size: 50px;
+}
+
+.location {
+  color: rgb(127, 127, 127);
+  font-size: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 40px;
+}
+
+.listitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3);
+  height: 168px;
+  border-top: 3px solid rgb(96, 96, 96);
+  background-color: rgb(196, 196, 196);
+}
+
+.listitem:nth-child(2) {
+  border-left: 3px solid rgb(96, 96, 96);
+  border-right: 3px solid rgb(96, 96, 96);
+}
