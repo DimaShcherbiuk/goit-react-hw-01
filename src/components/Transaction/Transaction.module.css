@@ -1,0 +1,23 @@
+.tdFirst {
+  width: 240px;
+  border: 1px solid black;
+  padding: 2px;
+  text-align: start;
+  padding-left: 70px;
+  text-transform: capitalize;
+}
+
+.td {
+  width: 240px;
+  border: 1px solid black;
+  padding: 2px;
+  text-align: center;
+}
+
+.tr:nth-child(2n) {
+  background-color: rgb(189, 189, 189);
+}
+
+.tr:nth-child(2n + 1) {
+  background-color: rgb(241, 241, 241);
+}
